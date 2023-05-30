@@ -1,0 +1,28 @@
+body{
+    top: 50%;
+    left:50%;
+    position: absolute;
+    margin: -125 0 0 -125;
+    
+}
+.map{
+    align-self: center;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.XOcell{
+    text-align: center;
+    font-size: x-large;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.new-cursor{
+    height: 40px;
+    width: 40px;     pointer-events: none;
+    position: absolute;
+    transition: 0, 1s;
+    transform: translate(-50%, -50%);
+}
